@@ -34,7 +34,7 @@
 - Implemented a **self-hosted bootstrap pipeline** compiling the compiler into MIPS machine code to execute inside the VM.
 - Designed a Foreign Function Interface (FFI) and handle-based marshalling for complex Lisp objects.
 
-#### 2. [Memory-Aware FCA & LLM Benchmark Pipeline] (https://github.com/CorentinFW/LLM_Et_Treillis_2026)
+#### 2. [Memory-Aware FCA & LLM Benchmark Pipeline](https://github.com/CorentinFW/LLM_Et_Treillis_2026)
 > **Large-Scale Combinatorial Lattice Optimization & LLM Benchmarking**
 - Designed an automated benchmarking pipeline monitoring CPU, RAM (via `/proc`), and Disk I/O to evaluate LLM-generated code (Claude, GPT, Gemini, Qwen).
 - Implemented disk-based partitioning & recomposition strategies to prevent $2^{\min(\vert{}G\vert{},\vert{}M\vert{})}$ combinatorial explosion.
